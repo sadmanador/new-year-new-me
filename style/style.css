@@ -4,6 +4,8 @@
     font-family: "Trirong", serif;
 }
 
+
+/* header section */
 .banner-container {
     background-image: url("../images/banner/banner3.png");
     height: 800px;
@@ -39,11 +41,12 @@
     color: rgb(3, 117, 230);
 }
 
+
+/* failure section */
 .failures-container {
     padding: 80px 200px;
     display: flex;
     justify-content: center;
-    width: 80%;
     margin-bottom: 8rem;
 }
 
@@ -64,6 +67,7 @@
 
 .failures-text ul {
     list-style-image: url('../images/tick.png');
+    list-style-position: inside;
 }
 
 .failures-text ul li {
@@ -71,6 +75,8 @@
     margin: .5rem 0;
 }
 
+
+/* plans section */
 .my-plan {
     margin: 30px auto;
     width: 80%;
@@ -95,9 +101,12 @@
 
 .plan-container>div>p{
     font-size: 1.8rem;
+    font-weight: 600;
     color: rgb(120, 120, 120);
 }
 
+
+/* callNow section */
 .callNow-container{
     width: 80%;
     margin: 5rem auto;
@@ -120,7 +129,6 @@
     background-size: cover;
 }
 
-
 .btn-callNow{
     font-size: 1.4rem;
     font-weight: 600;
@@ -131,6 +139,8 @@
     margin: 20px 0;
 }
 
+
+/* skill section */
 .skill-container{
     margin: 8rem auto;
     width: 80%;
@@ -143,6 +153,8 @@
     margin-bottom: 3rem;
 }
 
+
+/* footer section */
 .footer{
     display: flex;
     justify-content: space-around;
