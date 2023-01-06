@@ -41,12 +41,15 @@
 .failures-container {
     padding: 80px 200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 8rem;
 }
 
 .failures-text {
     width: 25rem;
     margin-top: 200px;
+    margin-left: 15rem;
 }
 
 .failures-text h2 {
@@ -65,4 +68,122 @@
 .failures-text ul li {
     font-size: 1.2rem;
     margin: .5rem 0;
+}
+
+.my-plan {
+    margin: 30px auto;
+    width: 80%;
+}
+
+.my-plan h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plan-container>div>h3 {
+    font-size: 2.2rem;
+    margin: 1.6rem 0;
+}
+
+.plan-container>div>p{
+    font-size: 1.8rem;
+    color: rgb(120, 120, 120);
+}
+
+.callNow-container{
+    width: 80%;
+    margin: 5rem auto;
+    background-size: cover;
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 12px;
+}
+
+.header-callNow {
+    font-size: 3rem;
+
+}
+
+.gradient_img{
+    padding: 100px;
+    background-image: url('../images/gradient1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.btn-callNow{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1rem 1.6rem;
+    color: rgb(3, 117, 230);
+    border: none;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 200px;
+}
+
+.logo{
+    display: flex;
+    margin-top: 1.2rem;
+}
+
+.subscribe h3{
+    font-size: 2.8rem;
+}
+
+.subscribe p input{
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 18px 26px;
+    background-color: black;
+    width: 300px;
+}
+
+.subscribe p input::placeholder{
+    font-size: 1.5rem;
+
+}
+
+.subscribe p button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(3, 117, 230);
+}
+
+.footer-text p{
+    width: 55ch;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+.footer-text h2{
+    font-size: 2.8rem;
+}
+
+.footer-text-email{
+    margin: 1.2rem 0;
+}
+
+.twitter {
+    margin: 0 1.5rem;
 }
