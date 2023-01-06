@@ -1,11 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Trirong", serif;
 }
 
 .banner-container {
     background-image: url("../images/banner/banner3.png");
-    height: 700px;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -48,7 +49,7 @@
 
 .failures-text {
     width: 25rem;
-    margin-top: 200px;
+    margin-top: 10rem;
     margin-left: 15rem;
 }
 
@@ -89,7 +90,7 @@
 
 .plan-container>div>h3 {
     font-size: 2.2rem;
-    margin: 1.6rem 0;
+    margin: .7rem 0;
 }
 
 .plan-container>div>p{
@@ -128,6 +129,18 @@
     border: none;
     border-radius: 8px;
     margin: 20px 0;
+}
+
+.skill-container{
+    margin: 8rem auto;
+    width: 80%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.skill-container h2{
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
 }
 
 .footer{
