@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-container {
+    background-image: url("../images/banner/banner3.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner-container>div {
+    text-align: end;
+    margin-top: 100px;
+    margin-right: 350px;
+    width: 20em;
+    float: right;
+    color: white;
+}
+
+.banner-container>div>h1 {
+    font-size: 3.5rem;
+    margin: 20px 0;
+}
+
+.banner-container>div>p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.btn-banner{
+    padding: 16px 22px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    color: rgb(3, 117, 230);
+}
