@@ -8,14 +8,13 @@
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .banner-container>div {
     text-align: end;
     margin-top: 100px;
-    margin-right: 350px;
-    width: 20em;
+    margin-right: 200px;
+    width: 25em;
     float: right;
     color: white;
 }
@@ -30,11 +29,40 @@
     font-size: 18px;
 }
 
-.btn-banner{
+.btn-banner {
     padding: 16px 22px;
     font-size: 1.6rem;
     font-weight: 700;
     border-radius: 8px;
     border: none;
     color: rgb(3, 117, 230);
+}
+
+.failures-container {
+    padding: 80px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.failures-text {
+    width: 25rem;
+    margin-top: 200px;
+}
+
+.failures-text h2 {
+    font-size: 3rem;
+}
+
+.failures-text p {
+    font-size: 1.2rem;
+    margin: 1.2rem 0;
+}
+
+.failures-text ul {
+    list-style-image: url('../images/tick.png');
+}
+
+.failures-text ul li {
+    font-size: 1.2rem;
+    margin: .5rem 0;
 }
